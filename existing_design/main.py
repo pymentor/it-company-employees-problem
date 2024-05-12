@@ -81,21 +81,6 @@ class ContractorEmployee(Employee):
     def calculate_payment(self):
         return self.hours_worked * self.hourly_rate
 
-class ContractorInOfficeEmployee(ContractorEmployee):
-    ...
-
-class ContractorNotInOfficeEmployee(ContractorEmployee):
-    ...
-
-class FreelanceEmployee(Employee):
-    # this is a base class for contractor employees (who work part-time on a short-term basis and have an hourly rate)
-    def __init__(self, name, email, hourly_rate):
-        ...
-
-    def calculate_payment(self):
-        return ...
-
-
 if __name__ == "__main__":
     # create regular manager
     regular_manager = RegularManagerEmployee(

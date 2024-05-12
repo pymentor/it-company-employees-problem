@@ -9,7 +9,6 @@ class Role(Enum):
     DEVELOPER: str = "developer"
     MANAGER: str = "manager"
     ACCOUNTANT: str = "accountant"
-    QA: str = "qa"
 
 
 class Employment(Enum):
@@ -23,7 +22,6 @@ class Employment(Enum):
     FRELANCEER: str = "freelancer"
 
 
-
 class ProgrammingLanguage(Enum):
     """
     This class represents programming languages that developers can learn and use for their tasks.
@@ -31,7 +29,6 @@ class ProgrammingLanguage(Enum):
 
     PYTHON: str = "python"
     JAVASCRIPT: str = "javascript"
-    CPP: str = "cpp"
 
 
 class TaskStatus(Enum):
@@ -42,4 +39,3 @@ class TaskStatus(Enum):
     NEW: str = "new"
     DEV_IN_PROGRESS: str = "dev_in_progress"
     DONE: str = "done"
-    INTEGRATED: str = "integrated"
