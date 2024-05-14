@@ -4,11 +4,11 @@ from _decimal import Decimal
 from collections import defaultdict
 from dataclasses import dataclass, field
 
-from domain.employees.abstract import Employee
-from domain.employees.developer import Developer
-from domain.task import Task
-from domain.team import Team
-from domain.work_reporter import WorkReporter
+from good_design.domain.employees.abstract import Employee
+from good_design.domain.employees.developer import Developer
+from good_design.domain.task import Task
+from good_design.domain.team import Team
+from good_design.domain.work_reporter import WorkReporter
 
 
 @dataclass

@@ -1,8 +1,8 @@
 from decimal import Decimal, getcontext
 
-from domain.employees.accountant import Accountant
-from domain.employees.manager import Manager
-from domain.employees.developer import Developer
+from good_design.domain.employees.accountant import Accountant
+from good_design.domain.employees.manager import Manager
+from good_design.domain.employees.developer import Developer
 from good_design.domain.enums import (
     Role,
     Employment,

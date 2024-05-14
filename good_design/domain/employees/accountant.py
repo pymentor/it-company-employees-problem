@@ -1,9 +1,9 @@
 from _decimal import Decimal
 from dataclasses import dataclass
 
-from domain.employees.abstract import Employee
-from domain.payment import IPaymentCalculator, PaymentCalculatorsMap
-from domain.work_reporter import WorkReporter
+from good_design.domain.employees.abstract import Employee
+from good_design.domain.payment import IPaymentCalculator, PaymentCalculatorsMap
+from good_design.domain.work_reporter import WorkReporter
 
 
 @dataclass
