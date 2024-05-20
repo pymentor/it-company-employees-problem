@@ -3,7 +3,7 @@ from dataclasses import dataclass, field
 
 from _decimal import Decimal
 
-from domain.employees.abstract import Employee
+from good_design.domain.employees.abstract import Employee
 
 
 @dataclass

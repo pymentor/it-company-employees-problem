@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 
-from domain.employees.developer import Developer
+from good_design.domain.employees.developer import Developer
 from good_design.domain.task import Task
 
 

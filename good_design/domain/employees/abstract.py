@@ -4,7 +4,7 @@ from _decimal import Decimal
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
 
-from domain.enums import Role, Employment
+from good_design.domain.enums import Role, Employment
 
 
 @dataclass

@@ -6,9 +6,9 @@ from dataclasses import dataclass, field
 from functools import wraps
 from typing import Callable
 
-from domain.employees.abstract import Employee
-from domain.enums import ProgrammingLanguage, TaskStatus
-from domain.task import Task
+from good_design.domain.employees.abstract import Employee
+from good_design.domain.enums import ProgrammingLanguage, TaskStatus
+from good_design.domain.task import Task
 
 
 @dataclass
